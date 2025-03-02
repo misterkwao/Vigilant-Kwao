@@ -3,6 +3,7 @@ import Layout from "./layouts/layout";
 import Home from "./pages/home";
 import { Projects } from "./pages/projects";
 import { Services } from "./pages/services";
+import { NotFound } from "./pages/notFound";
 
 const router = createBrowserRouter([
     {
@@ -12,7 +13,7 @@ const router = createBrowserRouter([
         { path: "", element: <Home /> },
         { path: "projects", element: <Projects /> },
         { path: "services", element: <Services /> },
-        // { path: "*", element: <NotFound /> }, // 404 Page
+        { path: "*", element: <NotFound /> }
       ],
     },
   ]);

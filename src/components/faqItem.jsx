@@ -25,7 +25,7 @@ export const FaqItem = ({ faq }) => {
               transition={{ duration: 0.3 }}
               className="mt-2 overflow-hidden text-gray-300"
             >
-              <p className="text-black dar:text-white">{faq.answer}</p>
+              <p className="text-black dark:text-white">{faq.answer}</p>
             </motion.div>
           )}
         </AnimatePresence>
