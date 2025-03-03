@@ -1,7 +1,7 @@
 export const testimonialsData = [
     {
         "name": "Benjamin Baffoe",
-        "description": "",
+        "description": "One determined guy. With potential leadership skills.",
     },
     {
         "name": "Francis Zigah",
