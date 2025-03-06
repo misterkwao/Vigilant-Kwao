@@ -19,7 +19,7 @@ export const Testimonials = () => {
             >
               <MessageSquareQuote />
               <div className="h-5/6 flex flex-col text-sm justify-between">
-                <p className="text-center pt-3">{data.description}</p>
+                <p className="text-center pt-3 overflow-y-auto custom-scrollbar-vertical">{data.description}</p>
                 <span className="text-right">{data.name}</span>
               </div>
             </div>

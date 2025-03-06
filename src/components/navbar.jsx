@@ -24,7 +24,7 @@ const Navbar = () => {
         isScrolled ? "glass-effect" : "bg-transparent"
       }`}
     >
-      <p className="font-bold">Vigilant Kwao</p>
+      <Link to="/"><p className="font-bold">Vigilant Kwao</p></Link>
       <div className="hidden md:flex justify-between items-center space-x-7">
         <Link to="/">Home</Link>
         <Link to="/projects">Projects</Link>

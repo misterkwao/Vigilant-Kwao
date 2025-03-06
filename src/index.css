@@ -24,4 +24,13 @@ html {
     background: #c6cbd3;
     border-radius: 10px;
   }
+
+  .custom-scrollbar-vertical::-webkit-scrollbar {
+    width: 3px;
+    border-radius: 10px;
+  }
+  .custom-scrollbar-vertical::-webkit-scrollbar-thumb {
+    background: #c6cbd3;
+    border-radius: 10px;
+  }
 }

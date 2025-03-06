@@ -17,6 +17,10 @@ export const firstRow = [
     },
     {
         "class": "flex justify-center items-center w-[153px] h-[80px] rounded-xl glass-effect border border-[#6366F1]/10 dark:border-white/10 shadow-sm transition-all duration-300 hover:scale-108 hover:drop-shadow-[0px_0px_10px_rgba(3,179,255,0.9)] hover:border-white/40",
+        "img":"/ts.svg"
+    },
+    {
+        "class": "flex justify-center items-center w-[153px] h-[80px] rounded-xl glass-effect border border-[#6366F1]/10 dark:border-white/10 shadow-sm transition-all duration-300 hover:scale-108 hover:drop-shadow-[0px_0px_10px_rgba(3,179,255,0.9)] hover:border-white/40",
         "img":"/tailwind.svg"
     },
     {

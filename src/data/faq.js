@@ -2,7 +2,7 @@ export const faqs = [
     {
       question: "How long does it take to complete a project with you?",
       answer:
-        "Projects typically take 6 - 8 weeks to complete. However, the timeline may vary depending on the complexity and specific requirements of the project. I prioritize delivering quality solutions over speed.",
+        "Projects typically take 2 - 6 weeks to complete. However, the timeline may vary depending on the complexity and specific requirements of the project. I prioritize delivering quality solutions over speed.",
     },
     {
       question: "Is my project idea safe with you?",

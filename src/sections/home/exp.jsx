@@ -8,7 +8,7 @@ export const Exp = () => {
                 <p>Project development from scratch</p>
             </span>
             <span className="text-center w-48">
-                <h1 className="text-3xl font-bold">2+</h1>
+                <h1 className="text-3xl font-bold">3+</h1>
                 <p>Years of Experience</p>
             </span>
             <span className="text-center w-48">
