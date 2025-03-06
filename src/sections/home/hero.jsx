@@ -8,7 +8,7 @@ const Hero = () => {
           <span className="text-[#f0b105]">;</span>
         </h1>
         <p className="text-2xl mb-4">
-          I am <span className="font-semibold">Vigilant Kwao</span>, an
+          I am <span className="font-semibold">Vigilant Obobisa Kwao</span>, an
           enthusiastic software developer from Ghana.
         </p>
         <p className="text-lg dark:text-gray-100">
