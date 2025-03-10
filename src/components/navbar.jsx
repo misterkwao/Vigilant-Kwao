@@ -24,16 +24,22 @@ const Navbar = () => {
         isScrolled ? "glass-effect" : "bg-transparent"
       }`}
     >
-      <Link to="/"><p className="font-bold">Vigilant Kwao</p></Link>
+      <Link to="/">
+        <p className="font-bold">Vigilant Kwao</p>
+      </Link>
       <div className="hidden md:flex justify-between items-center space-x-7">
         <Link to="/">Home</Link>
         <Link to="/projects">Projects</Link>
         <Link to="/services">Services</Link>
         <Link to="/services#faqs">Faqs</Link>
       </div>
-      <span className="hidden md:block bg-black text-white dark:bg-white dark:text-gray-900 p-1 px-5 rounded-2xl cursor-pointer">
+      <a
+        href="/Vigilant_Kwao.pdf"
+        download="Vigilant_Kwao_Resume.pdf"
+        className="hidden md:block bg-black text-white dark:bg-white dark:text-gray-900 p-1 px-5 rounded-2xl cursor-pointer"
+      >
         Resumé
-      </span>
+      </a>
       <span className="md:hidden" onClick={() => setIsMobileMenu(true)}>
         <Menu />
       </span>
@@ -74,12 +80,14 @@ const Navbar = () => {
       >
         Faqs
       </Link>
-      <span
+      <a
+        href="/Vigilant_Kwao.pdf"
+        download="Vigilant_Kwao_Resume.pdf"
         className="bg-black text-white dark:bg-white dark:text-gray-900 p-2 px-6 rounded-2xl cursor-pointer"
         onClick={closeMobileMenu}
       >
         Resumé
-      </span>
+      </a>
     </nav>
   );
 };
