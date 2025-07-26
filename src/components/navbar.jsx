@@ -34,7 +34,7 @@ const Navbar = () => {
         <Link to="/services#faqs">Faqs</Link>
       </div>
       <a
-        href="/Vigilant_Kwao.pdf"
+        href="/Vigilant_Kwao_Resume_Updated.pdf"
         download="Vigilant_Kwao_Resume.pdf"
         className="hidden md:block bg-black text-white dark:bg-white dark:text-gray-900 p-1 px-5 rounded-2xl cursor-pointer"
       >
@@ -81,7 +81,7 @@ const Navbar = () => {
         Faqs
       </Link>
       <a
-        href="/Vigilant_Kwao.pdf"
+        href="/Vigilant_Kwao_Resume_Updated.pdf"
         download="Vigilant_Kwao_Resume.pdf"
         className="bg-black text-white dark:bg-white dark:text-gray-900 p-2 px-6 rounded-2xl cursor-pointer"
         onClick={closeMobileMenu}
